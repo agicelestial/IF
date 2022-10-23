@@ -1,0 +1,204 @@
+i { font-family: crimson-italic; }
+html { font-size: 16px; }
+body{ font-size: 30px; font-family: open-sans; }
+button.ActionBarContent { font-weight: bold; color: white; border: none; width: 100%; background-color: transparent; font-family: inherit; }
+div { background-color: inherit; }
+h2, h3, h4, h5 { text-align: center; }
+table { font-weight: bold; width: 100%; background-color: #eeeeee; color: black; margin: 0px; border: none; border-color: white; font-family: inherit; }
+table.hs { background-color: white; }
+table.ActionBar { border: none; width: 100%; background-color: inherit; color: white; }
+input.AboutBookBackButton { font-weight: bold; color: white; border: none; width: 100%; background-color: transparent; outline: none; transition: 0.2s all; }
+input.AboutBookBackButton:active { transform: scale(2.0); }
+table.body { width: 100%; background-color: #eeeeee; }
+p { font-weight: normal; text-align: left; font-family: inherit; }
+.main { display: none; } 
+table.Head { transition: 0.2s all; font-weight: bold; font-family: open-sans; font-size: 120%; background-color: #eeeeee; width: 100%; color: black; }
+table.Head:active { transform: scale(1.4); }
+button.tc { transition: 0.2s all; }
+button.tc:active { transform: scale(1.4); }
+span.breakable { white-space: pre-wrap; word-break: break-all; }
+
+
+.menuButtonDiv { width: 30px; height: 30px; display: block; margin-left: auto; margin-right: auto; }
+img { width: 100%; height: 100%; border: none; display: block; }
+.menuButtonB { transition: 0.2s all; }
+.menuButtonB:active { transform: scale(1.8); }
+
+
+@media (min-width:120px) { /* smaller screen smartphones and devices */
+    button.ActionBarContent { font-size: 0.7em; }
+    input.AboutBookBackButton { font-size: 0.7em; }
+    table.body { font-size: 0.10em; }
+    .menuButtonDiv { width: 13px; height: 13px; }
+    table.Head { min-height: 25px; }
+}
+@media (min-width:160px) { /* smaller screen smartphones and devices */
+    button.ActionBarContent { font-size: 0.8em; }
+    input.AboutBookBackButton { font-size: 0.8em; }
+    table.body { font-size: 0.13em; }
+    .menuButtonDiv { width: 15px; height: 15px; }
+    table.Head { min-height: 30px; }
+}
+@media (min-width:240px) { /* smartphones, portrait 240x320 phones */
+    button.ActionBarContent { font-size: 1.2rem; }
+    input.AboutBookBackButton { font-size: 1.2rem; }
+    table.body { font-size: 0.33em; }
+    .menuButtonDiv { width: 20px; height: 20px; }
+    table.Head { min-height: 40px; }
+}
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+    button.ActionBarContent { font-size: 1.6rem; }
+    input.AboutBookBackButton { font-size: 1.6rem; }
+    table.body { font-size: 0.43em; }
+    .menuButtonDiv { width: 25px; height: 25px; }
+    table.Head { min-height: 60px; }
+}
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    button.ActionBarContent { font-size: 2rem; }
+    input.AboutBookBackButton { font-size: 2rem; }
+    table.body { font-size: 0.5em; }
+    .menuButtonDiv { width: 28px; height: 28px; }
+    table.Head { min-height: 65px; }
+}
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    button.ActionBarContent { font-size: 2.3rem; }
+    input.AboutBookBackButton { font-size: 2.3rem; }
+    table.body { font-size: 0.6em; }
+    .menuButtonDiv { width: 30px; height: 30px; }
+    table.Head { min-height: 70px; }
+}
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    button.ActionBarContent { font-size: 2.7rem; }
+    input.AboutBookBackButton { font-size: 2.7rem; }
+    table.body { font-size: 0.7em; }
+    .menuButtonDiv { width: 35px; height: 35px; }
+    table.Head { min-height: 75px; }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    button.ActionBarContent { font-size: 3rem; }
+    input.AboutBookBackButton { font-size: 3rem; }
+    table.body { font-size: 0.7em; }
+    .menuButtonDiv { width: 36px; height: 36px; }
+    table.Head { min-height: 77.5px; }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    button.ActionBarContent { font-size: 3rem; }
+    input.AboutBookBackButton { font-size: 3rem; }
+    table.body { font-size: 0.7em; }
+    .menuButtonDiv { width: 38px; height: 38px; }
+    table.Head { min-height: 80px; }
+}
+@media (min-width:2400px) { /* hi-res laptops and desktops */ 
+    button.ActionBarContent { font-size: 3.5rem; }
+    input.AboutBookBackButton { font-size: 3.5rem; }
+    table.body { font-size: 1.2em; }
+    .menuButtonDiv { width: 42px; height: 42px; }
+    table.Head { min-height: 85px; }
+}
+
+
+@media (min-width:120px) { /* smaller screen smartphones and devices */
+    .menuIcon { height: 2.0em; width: 2.0em; border: none; display: inline; margin-bottom: 0px; }
+    img.codeblocks { width: 100px; height: 40px;  }
+  }
+@media (min-width:160px) { /* smaller screen smartphones and devices */
+    .menuIcon { height: 2.0em; width: 2.0em; border: none; display: inline; margin-bottom: 0px; }
+    img.codeblocks { width: 150px; height: 60px;  }
+}
+@media (min-width:240px) { /* smartphones, portrait 240x320 phones */
+    .menuIcon { height: 1.5em; width: 1.5em; border: none; display: inline; margin-bottom: 0px; }
+    img.codeblocks { width: 200px; height: 100px;  }
+}
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+    .menuIcon { height: 1.7em; width: 1.7em; border: none; display: inline; margin-bottom: 0px; }
+    img.codeblocks { width: 300px; height: 135px;  } 
+}
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .menuIcon { height: 1.7em; width: 1.7em; border: none; display: inline; margin-bottom: 0px; }
+    img.codeblocks { width: 300px; height: 135px;  }
+}
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+	.menuIcon { height: 1.7em; width: 1.7em; border: none; display: inline; margin-bottom: 0px; }
+	img.codeblocks { width: 600px; height: 260px;  }
+}
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+	.menuIcon { height: 1.8em; width: 1.8em; border: none; display: inline; margin-bottom: 0px; }
+	img.codeblocks { width: 640px; height: 250px;  }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+	.menuIcon { height: 2.0em; width: 2.0em; border: none; display: inline; margin-bottom: 0px; }
+	img.codeblocks { width: 640px; height: 250px;  }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+	.menuIcon { height: 2.0em; width: 2.0em; border: none; display: inline; margin-bottom: 0px; }
+	img.codeblocks { width: 640px; height: 250px;  }
+}
+@media (min-width:2400px) { /* 4K */ 
+	.menuIcon { height: 2.6em; width: 2.6em; border: none; display: inline; margin-bottom: 0px; }
+	img.codeblocks { width: 640px; height: 250px;  }
+}
+
+
+
+@media (min-width:120px) { /* smaller screen smartphones and devices */
+    .pic { width: 40px; height: 40px; }
+}
+  @media (min-width:160px) { /* smaller screen smartphones and devices */
+    .pic { width: 50px; height: 50px; }
+}
+@media (min-width:240px) { /* smartphones, portrait 240x320 phones */
+    .pic { width: 70px; height: 70px; }
+}
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+    .pic { width: 120px; height: 120px; }
+}
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .pic { width: 150px; height: 150px; }
+}
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .pic { width: 200px; height: 200px; }
+}
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .pic { width: 300px; height: 300px; }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .pic { width: 300px; height: 300px; }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    .pic { width: 350px; height: 350px; }
+}
+@media (min-width:2400px) { /* 4K */ 
+    .pic { width: 450px; height: 450px; }
+}
+
+@media (min-width:120px) { /* smaller screen smartphones and devices */
+    .barcodeImage { width: 100px; height: 100px; }
+}
+  @media (min-width:160px) { /* smaller screen smartphones and devices */
+    .barcodeImage { width: 120px; height: 120px; }
+}
+@media (min-width:240px) { /* smartphones, portrait 240x320 phones */
+    .barcodeImage { width: 200px; height: 200px; }
+}
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+    .barcodeImage { width: 256px; height: 256px; }
+}
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .barcodeImage { width: 256px; height: 256px; }
+}
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .barcodeImage { width: 256px; height: 256px; }
+}
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .barcodeImage { width: 256px; height: 256px; }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .barcodeImage { width: 256px; height: 256px; }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    .barcodeImage { width: 256px; height: 256px; }
+}
+@media (min-width:2400px) { /* 4K */ 
+    .barcodeImage { width: 256px; height: 256px; }
+}
+
